@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="main-container">
     <navigation/>
     <v-main>
       <router-view/>
@@ -21,3 +21,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+#main-container{
+  background-color: #f8f8f8;
+}
+
+</style>
